@@ -1,2 +1,25 @@
-# Sentimark
-Scalable News Sentiment is a real-time investment insight tool that uses natural language processing (NLP) to analyze the latest news articles from Yahoo Finance and determine whether public sentiment favors investing in a company—starting with Apple Inc.
+# 📊 Scalable News Sentiment
+
+A real-time sentiment analysis platform that scrapes news from Yahoo Finance and uses NLP (VADER/FinBERT) to provide **investor insights**—helping users decide whether to invest in a company like Apple based on recent news.
+
+## 🚀 Features
+- Yahoo Finance news scraping
+- Sentiment scoring (FinBERT or VADER)
+- Investment suggestion: Buy / Hold / Avoid
+- Clean UI with a user-friendly dashboard
+
+## 📈 Tech Stack
+- Python 3, Requests, BeautifulSoup
+- FinBERT / VADER
+- Streamlit (for UI)
+- GitHub Pages (for project showcase)
+
+## 💡 Demo
+![Screenshot](assets/demo.png)
+
+## 🛠️ Installation
+```bash
+git clone https://github.com/yourusername/sentiment-tracker.git
+cd sentiment-tracker
+pip install -r requirements.txt
+python app.py
