@@ -26,6 +26,11 @@ A real-time dashboard that helps investors make smarter decisions by analyzing n
 
 ---
 
+## 🎥 Demo
+![image](https://github.com/user-attachments/assets/955338f9-a349-4537-92af-a5286d938357)
+
+---
+
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
