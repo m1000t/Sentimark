@@ -1,0 +1,5 @@
+feedparser
+vaderSentiment
+dash
+plotly
+pandas

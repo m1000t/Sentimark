@@ -1,0 +1,21 @@
+Main Idea
+
+- scrapes news of fincancial website like yahoo in real time
+- analyzes the news sentiment using NLP (if its postive news or negative news) or neutral
+- Stores and vizualies data alongside the stock prices
+- sends the alerts to the email or summarizes the sentsentiment shifts
+- overall helps the user invest into a stock
+
+- We will only be looking at apple stock and then get into more later on
+
+VADER
+
+- it gives the new tilte a score based of the words in it
+  for example ["Apple stock surges after strong earnings!"]
+  - surges (good word)
+  - strong (good word)
+  - after (neutral doesnt effect the score)
+
+Now we will use FinBERT
+
+- Real financial language understanding
