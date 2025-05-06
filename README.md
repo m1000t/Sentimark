@@ -15,7 +15,8 @@ A real-time sentiment analysis platform that scrapes news from Yahoo Finance and
 - GitHub Pages (for project showcase)
 
 ## 💡 Demo
-![Screenshot](assets/demo.png)
+![image](https://github.com/user-attachments/assets/f3d7c546-0971-4b88-a65d-4af7d2db7f82)
+
 
 ## 🛠️ Installation
 ```bash
