@@ -1,26 +1,34 @@
-# 📊 Scalable News Sentiment
+# 📊 Scalable News Sentiment Dashboard
 
-A real-time sentiment analysis platform that scrapes news from Yahoo Finance and uses NLP (VADER/FinBERT) to provide **investor insights**—helping users decide whether to invest in a company like Apple based on recent news.
+A real-time dashboard that helps investors make smarter decisions by analyzing news sentiment using state-of-the-art NLP (FinBERT). This tool scrapes financial headlines, scores their sentiment, and combines it with recent stock price data to generate investment insights for top tech stocks.
 
-## 🚀 Features
-- Yahoo Finance news scraping
-- Sentiment scoring (FinBERT or VADER)
-- Investment suggestion: Buy / Hold / Avoid
-- Clean UI with a user-friendly dashboard
+---
 
-## 📈 Tech Stack
-- Python 3, Requests, BeautifulSoup
-- FinBERT / VADER
-- Streamlit (for UI)
-- GitHub Pages (for project showcase)
+## 🧠 What It Does
 
-## 💡 Demo
-![image](https://github.com/user-attachments/assets/f3d7c546-0971-4b88-a65d-4af7d2db7f82)
+- Scrapes the **latest Yahoo Finance headlines** for selected stocks.
+- Applies **FinBERT** (finance-specific transformer) to analyze sentiment.
+- Aggregates sentiment scores and displays an **investment recommendation** (Buy / Hold / Avoid).
+- Shows recent **5-day stock prices** using real-time data from Yahoo Finance.
+- Provides a clean, interactive **Dash dashboard** with sentiment bars and price trends.
 
+---
 
-## 🛠️ Installation
+## 🔧 Tech Stack
+
+| Component          | Details                                                                 |
+|-------------------|-------------------------------------------------------------------------|
+| **Frontend/UI**   | [Dash](https://dash.plotly.com/) + Plotly (interactive charts)          |
+| **NLP Model**      | [FinBERT](https://huggingface.co/yiyanghkust/finbert-tone) via 🤗 Transformers |
+| **News Scraping** | [feedparser](https://pythonhosted.org/feedparser/) from Yahoo Finance RSS feeds |
+| **Stock Data**     | [yfinance](https://github.com/ranaroussi/yfinance) for real-time stock prices |
+| **Python Packages**| `dash`, `plotly`, `transformers`, `feedparser`, `yfinance`, `pandas`   |
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/sentiment-tracker.git
-cd sentiment-tracker
-pip install -r requirements.txt
-python app.py
+git clone https://github.com/yourusername/news-sentiment-dashboard.git
+cd news-sentiment-dashboard
